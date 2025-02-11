@@ -18,6 +18,9 @@ class coche{
     informacionCoche(){
         console.log(`La marca del carro es: ${this._marca} del modelo: ${this._modelo}.`)
     }
-    
+
 }
 
+const carro = new coche(`Chevrolet`, "Camioneta")
+
+console.log(carro)
